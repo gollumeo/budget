@@ -8,7 +8,7 @@
     <title>{{config('APP_NAME')}}</title>
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
-<body>
+<body class="bg-slate-900">
     <div id="app"></div>
 </body>
 </html>

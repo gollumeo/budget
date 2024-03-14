@@ -11,6 +11,7 @@ const app = createApp(App);
 const pinia = createPinia();
 
 app.config.globalProperties.$api = apiInstance;
+app.config.globalProperties.$toast = toast;
 
 app.use(pinia)
     .use(router)
